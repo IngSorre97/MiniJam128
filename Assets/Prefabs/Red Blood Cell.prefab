@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 5048075734277786181}
   - component: {fileID: 3713624163267282106}
   m_Layer: 0
-  m_Name: Blood cell
+  m_Name: Red Blood Cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -334,6 +334,7 @@ MonoBehaviour:
   - {fileID: 8600741569675780698}
   - {fileID: 6133905807747086239}
   - {fileID: 880960580711778887}
+  borderPoints: []
 --- !u!1001 &60077398816242639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -381,9 +382,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder
@@ -488,9 +493,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder
@@ -595,9 +604,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder
@@ -702,9 +715,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder
@@ -809,9 +826,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder
@@ -916,9 +937,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border point (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2924356082603573663, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
+      propertyPath: m_Mass
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573733, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924356082603573734, guid: 3436cbcc664ee924582e3adab3e2e722, type: 3}
       propertyPath: m_RootOrder

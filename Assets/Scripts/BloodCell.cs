@@ -8,6 +8,7 @@ public class BloodCell : MonoBehaviour
     private const float SplineOffset = 0.5f;
     [SerializeField] public SpriteShapeController spriteShape;
     [SerializeField] public Transform[] points;
+    [SerializeField] private List<GameObject> borderPoints;
 
     private void Awake()
     {
@@ -17,6 +18,15 @@ public class BloodCell : MonoBehaviour
     private void Update()
     {
         UpdateVerticies();
+        Rigidbody2D rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+        Vector2 velocity = rigidbody2D.velocity;
+        if (velocity.y > BloodCellsManager.Singleton.maxVelocity)
+        {
+            velocity.y = BloodCellsManager.Singleton.maxVelocity;
+            rigidbody2D.velocity = velocity;
+            foreach (GameObject borderPoint in borderPoints)
+                borderPoint.GetComponent<Rigidbody2D>().velocity = velocity;
+        }
     }
 
     private void UpdateVerticies()
