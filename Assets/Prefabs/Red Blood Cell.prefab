@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2628597601779578425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9569, y: 0.8585, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 880960580711778887}
@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 1076508511209133538}
   - component: {fileID: 5048075734277786181}
   - component: {fileID: 3713624163267282106}
+  - component: {fileID: 5656698234848311028}
   m_Layer: 0
   m_Name: Red Blood Cell
   m_TagString: Untagged
@@ -335,6 +336,27 @@ MonoBehaviour:
   - {fileID: 6133905807747086239}
   - {fileID: 880960580711778887}
   borderPoints: []
+--- !u!114 &5656698234848311028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397623963312048593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cd2448ed7a374fbfef178b34c3449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteShape: {fileID: 6522286375050197128}
+  points:
+  - {fileID: 1437470786}
+  - {fileID: 6007426800891600008}
+  - {fileID: 8023914042461568094}
+  - {fileID: 2900342691054123561}
+  - {fileID: 8600741569675780698}
+  - {fileID: 6133905807747086239}
+  - {fileID: 880960580711778887}
 --- !u!1001 &60077398816242639
 PrefabInstance:
   m_ObjectHideFlags: 0
